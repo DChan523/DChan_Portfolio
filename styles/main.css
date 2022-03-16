@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');/*8-bit font family*/
+
+html{
+    font-family: 'Press Start 2P', cursive;
+    color: #F2F2F9;
+    background-color: black;
+}
+#startBtnWrapper{
+    text-align: center;
+    margin-top: 10%;
+}
+#startBTN{
+    background-color: black;
+    color: #F2F2F9;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5em;
+    text-decoration: none;
+    
+    animation: blink 0.9s infinite;
+}
+@keyframes blink {
+    0%{
+        color: #F2F2F9;
+    }
+    50%{
+        color: transparent;
+    }
+    99%{
+        color: #F2F2F9;
+    }
+}
+#oscilatteTitle{
+    margin-top:15%;
+    text-align: center;
+    font-size: 5em;
+}
+h2{
+    text-align: center;
+}
