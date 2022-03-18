@@ -9,6 +9,7 @@ html{
     color: #F2F2F9;
     background-color: #0F0C00;
 }
+/*START BUTTON*/
 #startBtnWrapper{
     text-align: center;
     margin-top: 10%;
@@ -32,6 +33,7 @@ html{
         color: #F2F2F9;
     }
 }
+/*HEADING STYLES*/
 h1{
     margin-top:15%;
     text-align: center;
@@ -42,4 +44,25 @@ h2{
     text-align: center;
     margin-top: 5%;
 }
+/*NAVIGATION*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #202103;
+}
+
+.logo{
+    color: #F2F2F9;
+    letter-spacing: 5px;
+}
+
+.links{
+    display: flex; 
+    justify-content: space-around;
+    width: 40%;
+}
+
 
