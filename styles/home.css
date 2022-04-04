@@ -7,11 +7,24 @@
 html{
     font-family: 'Press Start 2P', cursive;
     color: #F2F2F9;
-    background-color: #0F0C00;
 }
-/* body{
-    background-image: url("../media/imgs/556524.jpg");
-} */
+body{
+    font-family: 'Press Start 2P', cursive;
+    color: #F2F2F9;
+    background-image: url(../media/imgs/556524.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+}
+/*Resume Download Section*/
+#resume h1{
+    position: relative;
+    text-align: center;
+    margin-top: 10%;
+}
+#resume button{
+    position: relative;
+}
 /* NAVIGATION */
 nav{
     display: flex;
@@ -28,6 +41,7 @@ nav{
 }
 
 .links{
+    list-style: none;
     display: flex; 
     justify-content: space-around;
     width: 40%;
