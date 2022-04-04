@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');/*8-bit font family*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Press Start 2P', cursive;
+    color: #F2F2F9;
+    background-color: #0F0C00;
+}
+/* body{
+    background-image: url("../media/imgs/556524.jpg");
+} */
+/* NAVIGATION */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #202103;
+}
+
+.logo{
+    color: #F2F2F9;
+    letter-spacing: 5px;
+}
+
+.links{
+    display: flex; 
+    justify-content: space-around;
+    width: 40%;
+}
+.links  a{
+    color: #F2F2F9;
+    text-decoration: none;
+
+}
