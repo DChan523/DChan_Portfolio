@@ -80,26 +80,11 @@ body{
     margin: 2em;
 }
 /* NAVIGATION */
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
+.navbar-default{
     font-family: 'Press Start 2P', cursive;
     background-color: #155040;
 }
 
-.logo{
-    color: #F2F2F9;
-    letter-spacing: 5px;
-}
-
-.links{
-    list-style: none;
-    display: flex; 
-    justify-content: space-around;
-    width: 40%;
-}
 .links  a{
     color: #F2F2F9;
     text-decoration: none;
