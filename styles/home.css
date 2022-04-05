@@ -21,9 +21,31 @@ body{
     position: relative;
     text-align: center;
     margin-top: 10%;
+    color: #004058;
 }
-#resume button{
+#resume p{
+    text-align: center;
+}
+#resDownload{
+    text-align: center;
+    margin-top: 100px;
+}
+#resume a{
     position: relative;
+    color: white;
+    text-transform: uppercase;
+    animation: blink 1.3s infinite;
+}
+@keyframes blink {
+    0%{
+        color: #00b800;
+    }
+    50%{
+        color: transparent;
+    }
+    99%{
+        color: #00b800;
+    }
 }
 /* NAVIGATION */
 nav{
@@ -32,7 +54,7 @@ nav{
     align-items: center;
     min-height: 8vh;
     font-family: 'Press Start 2P', cursive;
-    background-color: #202103;
+    background-color: #004058;
 }
 
 .logo{
