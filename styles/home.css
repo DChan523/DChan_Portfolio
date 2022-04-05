@@ -84,9 +84,6 @@ body{
     font-family: 'Press Start 2P', cursive;
     background-color: #155040;
 }
-
-.links  a{
-    color: #F2F2F9;
-    text-decoration: none;
-
+.navbar-nav li a {
+    margin-right: 15px;
 }
