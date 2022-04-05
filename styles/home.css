@@ -22,7 +22,7 @@ body{
     position: relative;
     text-align: center;
     margin-top: 10%;
-    color: #004058;
+    color: #008888;
 }
 #resume p{
     text-align: center;
@@ -48,12 +48,27 @@ body{
         color: #00b800;
     }
 }
+#about{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 2em;
+    background-color: rgb(36, 33, 33);
+}
+#about p {
+    margin: 2em;
+    text-align: center;
+}
+#about h2{
+    text-align: center;
+    color: #008888;
+    margin-top: 2em;
+}
 /*CONTACT US*/
 #contact a{
     text-decoration: none;
     display: block;
     margin-top:50px;
-    color: orange;
+    color: white;
 }
 #mail{
     text-align: center;
@@ -61,8 +76,8 @@ body{
 /*PROJECTS*/
 #projects h2{
     text-align: center;
-    color: #004058;
-    margin: 1.5em;
+    color: #008888;
+    margin: 2em;
 }
 /* NAVIGATION */
 nav{
@@ -71,7 +86,7 @@ nav{
     align-items: center;
     min-height: 8vh;
     font-family: 'Press Start 2P', cursive;
-    background-color: #004058;
+    background-color: #155040;
 }
 
 .logo{
