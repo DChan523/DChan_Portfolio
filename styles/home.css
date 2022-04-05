@@ -1,3 +1,4 @@
+/*background taken from https://wallpaperaccess.com/8-bit*/
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');/*8-bit font family*/
 *{
     margin: 0px;
@@ -11,7 +12,7 @@ html{
 body{
     font-family: 'Press Start 2P', cursive;
     color: #F2F2F9;
-    background-image: url(../media/imgs/556524.jpg);
+    background-image: url("../media/imgs/556524.jpg");
     background-repeat: no-repeat;
     background-color: black;
     background-size: cover;
@@ -46,6 +47,22 @@ body{
     99%{
         color: #00b800;
     }
+}
+/*CONTACT US*/
+#contact a{
+    text-decoration: none;
+    display: block;
+    margin-top:50px;
+    color: orange;
+}
+#mail{
+    text-align: center;
+}
+/*PROJECTS*/
+#projects h2{
+    text-align: center;
+    color: #004058;
+    margin: 1.5em;
 }
 /* NAVIGATION */
 nav{
