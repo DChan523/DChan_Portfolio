@@ -7,7 +7,7 @@
 html{
     font-family: 'Press Start 2P', cursive;
     color: #F2F2F9;
-    background-color: #004058;
+    background-color: #155040;
 }
 /*START BUTTON*/
 #startBtnWrapper{
@@ -15,7 +15,7 @@ html{
     margin-top: 10%;
 }
 #startBTN{
-    background-color: #004058;
+    background-color: #155040;
     color: #F2F2F9;
     font-family: 'Press Start 2P', cursive;
     font-size: 1.5em;
